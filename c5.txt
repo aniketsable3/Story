@@ -1,0 +1,11 @@
+git log
+git branch alion-plot
+git branch
+git checkout alion-plot 
+git add .
+git commit -m "Alien theme" 
+git log
+git branch
+git checkout main 
+git merge alion-plot 
+git push origin main -u
